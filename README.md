@@ -20,3 +20,5 @@ To add **ReflectAPI** to your plugin is to add the following code below:
 	<version>Tag</version>
 </dependency>
 ```
+
+Replace the `Tag` with the current version which is in the jitpack badge.
