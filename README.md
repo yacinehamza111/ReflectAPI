@@ -54,7 +54,6 @@ Then, copy the code below:
 ```Java
 package me.yacinehamza111.reflectapi.commands; // replace the package with your package or else you will get an error.
 
-import me.yacinehamza111.reflectapi.utils.Color;
 import me.yacinehamza111.reflectapi.utils.CommandCreator;
 import me.yacinehamza111.reflectapi.utils.CommandInfo;
 import org.bukkit.entity.Player;
