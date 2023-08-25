@@ -25,6 +25,23 @@ Replace the `Tag` with the current version which is in the jitpack badge.
 
 
 
+## Gradle implementation
+
+```gradle
+repositories {
+	maven { url 'https://jitpack.io' }
+}
+```
+
+
+```gradle
+dependencies {
+	implementation 'com.github.yacinehamza111:ReflectAPI:Tag'
+}
+```
+
+
+
 
 To make a command using **ReflectAPI** to your plugin, you have to make a package called `commands`, when you are done making it. Make a new class called `<commandname>Comnmand` (replace the `<commandname>` with the command name your gonna make).
 
