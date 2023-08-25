@@ -1,0 +1,10 @@
+name: ReflectAPI
+version: '${project.version}'
+main: me.yacinehamza111.reflectapi.ReflectAPI
+api-version: 1.20
+authors: [ yacinehamza111 ]
+description: An API Plugin that makes it easier to code plugins!
+
+commands:
+  reflect:
+    description: ReflectAPI!
