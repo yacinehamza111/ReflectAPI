@@ -58,14 +58,16 @@ import me.yacinehamza111.reflectapi.utils.CommandCreator;
 import me.yacinehamza111.reflectapi.utils.CommandInfo;
 import org.bukkit.entity.Player;
 
-@CommandInfo(name = "test", requiresPlayer = true) // the name is for the command name (also, replace the 'test' command name to your command name), and the requiresPlayer just makes it so if the command requires a player to execute it, then keep it to true. Otherwise make it false to make it so only console can run the command.
-public class TestCommand extends CommandCreator { // replace the TestCommand class to your class (don't rename your class to TestCommand since its not necessary)
+@CommandInfo(name = "test", requiresPlayer = true) // the name is for the command name (also, replace the 'test' command name with your command name), and the requiresPlayer just makes it so if the command requires a player to execute it, then keep it to true. Otherwise, make it false to make it so only the console can run the command.
+public class TestCommand extends CommandCreator { // replace the TestCommand class to your class (don't rename your class to TestCommand since it's not necessary)
 
     @Override
     public void execute(Player player, String[] args) {
 	player.sendMessage("Hello World!");
-	// replace the hello world message with the code you want to execute when you run the command.
+	// Replace the hello world message with the code you want to execute when you run the command.
     }
 }
 
 ```
+
+And that's it! You have made a command using the **ReflectAPI** API Plugin!
