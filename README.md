@@ -8,15 +8,15 @@ To add **ReflectAPI** to your plugin is to add the following code below:
 
 ```xml
 <repository>
-		    <id>jitpack.io</id>
-		    <url>https://jitpack.io</url>
+	<id>jitpack.io</id>
+	<url>https://jitpack.io</url>
 </repository>
 ```
 
 ```xml
 <dependency>
-	    <groupId>com.github.yacinehamza111</groupId>
-	    <artifactId>ReflectAPI</artifactId>
-	    <version>Tag</version>
+	<groupId>com.github.yacinehamza111</groupId>
+	<artifactId>ReflectAPI</artifactId>
+	<version>Tag</version>
 </dependency>
 ```
