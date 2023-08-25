@@ -42,6 +42,8 @@ dependencies {
 }
 ```
 
+Replace the `Tag` with the current version which is in the jitpack badge.
+
 
 ## Command Creator
 
