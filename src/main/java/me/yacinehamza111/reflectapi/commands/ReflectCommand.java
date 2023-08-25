@@ -3,10 +3,7 @@ package me.yacinehamza111.reflectapi.commands;
 import me.yacinehamza111.reflectapi.utils.Color;
 import me.yacinehamza111.reflectapi.utils.CommandCreator;
 import me.yacinehamza111.reflectapi.utils.CommandInfo;
-import org.bukkit.command.CommandSender;
 import org.bukkit.entity.Player;
-
-import java.util.List;
 
 @CommandInfo(name = "reflect", requiresPlayer = true)
 public class ReflectCommand extends CommandCreator {
