@@ -4,7 +4,7 @@
 an API plugin that makes it easy to make plugins!
 
 
-To add **ReflectAPI** to your plugin is to add the following code below:
+To add **ReflectAPI** to your plugin, add the following code below:
 
 ```xml
 <repository>
@@ -22,3 +22,8 @@ To add **ReflectAPI** to your plugin is to add the following code below:
 ```
 
 Replace the `Tag` with the current version which is in the jitpack badge.
+
+
+
+
+To make a command using **ReflectAPI** to your plugin, you have to make a package called `commands`, when you are done making it. Make a new class called `<commandname>Comnmand` (replace the `<commandname>` with the command your gonna make)
